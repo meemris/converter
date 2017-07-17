@@ -13,6 +13,7 @@
 		555273881F0D7ABF007178A6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 555273861F0D7ABF007178A6 /* Main.storyboard */; };
 		5552738A1F0D7ABF007178A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 555273891F0D7ABF007178A6 /* Assets.xcassets */; };
 		5552738D1F0D7ABF007178A6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5552738B1F0D7ABF007178A6 /* LaunchScreen.storyboard */; };
+		55CCF7CA1F1413CA002CF5A4 /* dataProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 55CCF7C91F1413CA002CF5A4 /* dataProvider.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		555273891F0D7ABF007178A6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5552738C1F0D7ABF007178A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5552738E1F0D7ABF007178A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		55CCF7C81F1413CA002CF5A4 /* dataProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dataProvider.h; sourceTree = "<group>"; };
+		55CCF7C91F1413CA002CF5A4 /* dataProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = dataProvider.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +70,8 @@
 				5552738B1F0D7ABF007178A6 /* LaunchScreen.storyboard */,
 				5552738E1F0D7ABF007178A6 /* Info.plist */,
 				5552737D1F0D7ABF007178A6 /* Supporting Files */,
+				55CCF7C81F1413CA002CF5A4 /* dataProvider.h */,
+				55CCF7C91F1413CA002CF5A4 /* dataProvider.m */,
 			);
 			path = currensyconverter;
 			sourceTree = "<group>";
@@ -153,6 +158,7 @@
 			files = (
 				555273851F0D7ABF007178A6 /* ViewController.m in Sources */,
 				555273821F0D7ABF007178A6 /* AppDelegate.m in Sources */,
+				55CCF7CA1F1413CA002CF5A4 /* dataProvider.m in Sources */,
 				5552737F1F0D7ABF007178A6 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -314,6 +320,7 @@
 				555273931F0D7ABF007178A6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

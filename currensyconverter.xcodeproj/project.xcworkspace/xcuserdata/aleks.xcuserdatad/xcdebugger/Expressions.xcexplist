@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "__50+[dataProvider getData:targetCurrency:completion:]_block_invoke:dataProvider.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "targetCurrency">
+            </PersistentString>
+            <PersistentString
+               value = "responseDictionary">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "__39+[dataProvider getData:targetCurrency:]_block_invoke:dataProvider.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "request">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>
